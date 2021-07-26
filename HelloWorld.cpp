@@ -6,9 +6,14 @@ using namespace std;
 
 int main()
 {
-    string s = "Unreal";
-    cout << s << "\n" << s.length() << "\n";
-    cout << s[0] << " " << s[s.length() - 1];
+    int n;
+    cin >> n;
+
+    for (int i = 0; i <= n; i++) {
+        if (i % 2 == 0) {
+            cout << i;
+        }
+    }
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
