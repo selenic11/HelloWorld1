@@ -4,24 +4,11 @@
 #include <iostream>
 using namespace std;
 
-void print()
-{
-    cout << "Hello!!!!!";
-}
-
 int main()
 {
-    cout << "Hello World!!\n";
-
-    int a = 8;
-    int b = a * 6;
-    int c;
-
-    cin >> c;
-
-    cout << a + b << "\n";
-    cout << c * 5;
-
+    string s = "Unreal";
+    cout << s << "\n" << s.length() << "\n";
+    cout << s[0] << " " << s[s.length() - 1];
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
